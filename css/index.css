@@ -120,10 +120,15 @@ header nav a:last-child {
 
 nav a{
   margin: 20px;
+  border: solid red;
+
   
 }
 .logo{
 margin: 200px 90;
+border: solid red;
+display: inline-block;
+padding: 0;
 }
 
 /* cta */
@@ -135,9 +140,10 @@ margin: 200px 90;
   margin-top: 120px;
   text-align: center;
   padding: 0px 75px;
+  border: solid red;
 }
 
-.cta .cta-text button {
+.button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -145,33 +151,29 @@ margin: 200px 90;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
+  border: solid red;
 }
 
-.cta .cta-text button:hover {
+.button:hover {
   background: black;
   color: white;
 }
 
-.cta img {
-  display: inline-block;
-  margin-top: 69px;
-}
 
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  border: solid red;
 }
 
 
-
-
-
-.main-content .top-content .text-content {
+.middle-content {
   width: 410px;
   display: inline-block;
   margin-right: 34px;
   padding: 0 10px;
+  border: solid blue;
 }
 
 .main-content .top-content .text-content:last-child {
@@ -182,18 +184,18 @@ margin: 200px 90;
   margin-top: 45px;
 }
 
-.main-content .bottom-content {
-  margin-top: 37px;
-  padding: 0 10px;
-}
 
-.main-content .bottom-content .text-content {
+.bottom-content {
   width: 275px;
   display: inline-block;
   margin-right: 12px;
+  margin-top: 37px;
+  padding: 0 10px;
+  border: solid blue;
+  
 }
 
-.main-content .bottom-content .text-content:last-child {
+.bottom-content:last-child {
   margin-right: 0;
 }
 
